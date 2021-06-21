@@ -2,7 +2,7 @@ body {
   min-width: 320px;
   padding: 0;
   margin: 0;
-  background: #000000;
+  background: #BCBCBC;
   color: #ffffff;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
@@ -11,7 +11,7 @@ body {
 }
 
 .box {
-  width: 288px;
+  width: 382px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -36,9 +36,6 @@ td {
   text-align: center;
 }
 
-.about {
-  margin-top: 33px;
-}
 .about__row--info {
   font-size: 12px;
   color: #6C6C6C;
@@ -114,9 +111,9 @@ td {
 
 .logo {
   display: block;
-  width: 320px;
+  width: 100%;
   height: auto;
-  margin: 70px auto 120px auto;
+  margin: 70px 0 120px 0;
 }
 
 .footer {
@@ -127,6 +124,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
   padding: 2px;
   font-weight: 800;
   font-size: 10px;
@@ -138,24 +136,14 @@ td {
   margin: 0 5px;
 }
 
-.gray {
-  background: #D3D3D3;
-  color: #000000;
+.page-container {
+  max-width: 414px;
+  margin: 0 auto;
+  padding: 32px 0;
+  box-sizing: border-box;
 }
-.gray table,
-.gray tr,
-.gray td {
-  border-color: #000000;
-}
-.gray .contacts__link {
-  color: #000000;
-}
-.gray .contacts__link:hover {
-  color: #ffffff;
-}
-.gray .footer {
-  background: #CCCCCC;
-  color: #ffffff;
+.page-container--black {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=styles2.css.map */
