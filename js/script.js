@@ -1,18 +1,13 @@
 "use strict";
 
 const modal = document.querySelector('.modal');
-const hideModal = function () {
-    modal.classList.toggle('modal--hide');
-}
-const modalToggle = function () {
-    modal.classList.toggle('modal--show');
-}
+modal.classList.add('modal--show');
+setTimeout(function () {
+    modal.classList.add('modal--hide');
+    setTimeout(function () {
+        modal.classList.remove('modal--show');
+        modal.classList.remove('modal--hide');
+    }, 500);
+}, 2000);
 
-const modalActivator = function () {
-    modalToggle;
-    setTimeout(hideModal, 2500);
-    setTimeout(modalToggle, 500);
-}
-
-modalActivator();
 
