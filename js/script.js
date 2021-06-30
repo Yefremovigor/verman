@@ -7,7 +7,7 @@ setTimeout(function () {
     setTimeout(function () {
         modal.classList.remove('modal--show');
         modal.classList.remove('modal--hide');
-    }, 500);
-}, 2000);
+    }, 600);
+}, 1000);
 
 

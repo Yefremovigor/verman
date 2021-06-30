@@ -200,10 +200,11 @@ body {
   }
 
   &--gray {
-    background-color: #E5E5E5;
+    background-color: #D3D3D3;
     color: #000000;
     .table {
       border-color: #000000;
+      background: #ffffff;
     }
     .row {
       border-color: #000000;
@@ -287,6 +288,18 @@ body {
   height: 100vh;
   background: #000000;
   transition: opacity 500ms;
+
+  &--white {
+    background-color: #FFFFFF;
+  }
+
+  &--red {
+    background-color: #FF0000;
+  }
+
+  &--gray {
+    background-color: #D3D3D3;
+  }
 
   &--show {
     display: flex;

@@ -191,11 +191,12 @@ body {
   background-color: #000000;
 }
 .page-container--gray {
-  background-color: #E5E5E5;
+  background-color: #D3D3D3;
   color: #000000;
 }
 .page-container--gray .table {
   border-color: #000000;
+  background: #ffffff;
 }
 .page-container--gray .row {
   border-color: #000000;
@@ -275,6 +276,15 @@ body {
   height: 100vh;
   background: #000000;
   transition: opacity 500ms;
+}
+.modal--white {
+  background-color: #FFFFFF;
+}
+.modal--red {
+  background-color: #FF0000;
+}
+.modal--gray {
+  background-color: #D3D3D3;
 }
 .modal--show {
   display: flex;
